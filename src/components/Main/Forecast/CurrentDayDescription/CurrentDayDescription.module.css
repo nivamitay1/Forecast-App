@@ -1,0 +1,8 @@
+#wrapper {
+  padding-right: 5%;
+}
+@media (max-width: 768px) {
+  #wrapper {
+    padding: 0 5% 2% 5%;
+  }
+}

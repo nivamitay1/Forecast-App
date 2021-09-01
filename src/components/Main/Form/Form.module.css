@@ -1,0 +1,64 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  border-radius: var(--main-border-radius);
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  background-image: var(--bg-color--card);
+  color: var(--main-text-color);
+  width: 70%;
+  height: 30vh;
+  max-width: 675px;
+  max-height: 230px;
+}
+
+@media screen and (max-width: 450px) {
+  .box {
+    width: 95%;
+  }
+}
+
+.input {
+  border: none;
+  border-radius: var(--main-border-radius);
+  margin-bottom: 1rem;
+  height: 40px;
+  width: 98%;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  text-align: center;
+}
+
+::placeholder {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  border: none;
+  border-radius: var(--main-border-radius);
+  padding: 0.65rem;
+  background-image: var(--gradient);
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  line-height: initial;
+  width: 100%;
+  height: 38px;
+}
+
+.button:hover {
+  color: var(--main-text-color);
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}

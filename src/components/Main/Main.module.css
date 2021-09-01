@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 18vh auto;
+  width: 100%;
+  max-width: 675px;
+  min-height: 300px;
+}

@@ -1,0 +1,30 @@
+.btn {
+  position: fixed;
+  left: 0;
+  top: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.img {
+  width: 48px;
+}
+
+@media screen and (max-width: 500px) {
+  .btn {
+    width: 13%;
+  }
+  .img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .btn {
+    width: 17%;
+    height: 10%;
+  }
+  .img {
+    width: 100%;
+  }
+}
